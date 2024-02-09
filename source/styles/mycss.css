@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One&display=swap&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Zen+Kurenaido&display=swap&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap&subset=cyrillic');
+
+
+
+body,.btn-outline-primary {
+    background: linear-gradient(90deg, #ffffff 0%, #3d3d3e 100%);
+    font-family: Zen Kurenaido, serif;
+}
+
+p {
+    color: aquamarine;
+}
+
+
+/* .nav-link {
+    color: aqua;
+}
+.navbar-nav .nav-link.active {
+    color: blue;
+} */
+/* .navbar-brand{
+    align-items: center
+} */
+
+/* .navbar-brand img{
+    display: block;
+    width: 150px;
+    font-family: Verdana, Helvetica, sans-serif;
+    margin: 0;
+    justify-items: center;
+} */
+.nav-logo{
+    display: block;
+    justify-content: center;
+    max-width: 150px;
+    margin: auto auto;
+    overflow-x: auto;
+    padding: 0;
+    margin: 0;
+}
+.nav-logo a,.nav-logo img,.nav-logo p{
+    width: 100%;
+    color: black;
+    text-align: center!important;
+    white-space: normal;
+    font-family: Zen Kurenaido, Bebas Neue;
+    font-weight: 1000;
+    padding: 0;
+    margin: 0;    
+}
+.sidebar {
+    color: aquamarine;
+    background: linear-gradient(270deg, #7e7e82 0%, #3d3d3e 100%);
+}
+
+.card {
+    background: linear-gradient(270deg, #7e7e82 0%, #3d3d3e 100%);
+    color: aquamarine;
+}
+
+.card a {
+    text-decoration: none;
+    color: aquamarine;
+}
+.help a{
+    text-decoration: none;
+}
+.slide-text,
+.footer-text  {
+    margin: auto auto;
+    color: aquamarine;
+}
+
+footer {
+    display: flex;
+    align-items: flex-end;
+    background: linear-gradient(270deg, #ffffff 0%, #3d3d3e 100%);
+    font-family: Zen+Kurenaido, serif;
+}
+.media-links{
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+}
+
+.call-anim {
+    animation: myAnim 2s ease-out 0s 6 normal forwards;
+}
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+
+@media (max-width: 755px){
+    .carousel-indicators {
+        display: none
+    }
+}
+
+@media (min-height: 800px){
+    section {
+        
+        min-height: 1000px;
+    }
+}
